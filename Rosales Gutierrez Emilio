@@ -1,1 +1,20 @@
-
+/*Rosales Gutierrez Emilio
+/*13211430
+/*  ¡Hola mundo!*/
+ 
+void setup()
+{
+	//Se inicializa el pin y se especifica si es de entrada o de salida.
+	pinMode(13, OUTPUT);
+}
+ 
+void loop()
+{
+  //Se enciende el LED del pin 13 durante 1 segundo.
+  digitalWrite(13, HIGH);
+  delay(1000);
+ 
+  //Se apaga el LED del pin 13.
+  digitalWrite(13, LOW);
+  delay(1000);
+}
